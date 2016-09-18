@@ -1,0 +1,8 @@
+
+What happens when you initialize a repository?  Why do you need to do it?
+
+Answer: When you initialized a Git repository, it creates the hidden .git directory and initially populates the git META data files in that directory.  If you did not do a git init, then git would probably error out when you tried to commit or push the changes up since it wouldn't know any details about the files.
+ How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+The staging area holds files that aren't yet added to the repository.  Since there are situations where you might not want to add everything in the working directory, the staging area has value as a good place to hold those files to be added.
+
