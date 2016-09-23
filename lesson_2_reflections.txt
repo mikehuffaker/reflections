@@ -15,4 +15,10 @@ What are some situations when branches would be helpful in keeping your history 
 
 Answer:  One situation I can think of is when you have a software product where you do new releases once a year or so with new features, but you would need to branch off current releases for bug fixes and keep those older releases stable.
 
+How do the diagrams help you visualize the branch structure?
 
+Answer: The diagrams make it much easier to see what at what commit point a branch seperated from the master branch.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+The merging of the branches combines both sets of code from the branches - inserting and deleting lines as needed.  The diagram shows how the commit points follow different paths once the branch is created, but then merge up.
