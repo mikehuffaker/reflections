@@ -1,1 +1,3 @@
-Test
+When would you want to use a remote repository rather than keeping all your work local?
+
+Answer: I think in situations where you have to work from a shared computer at a business or client site, where you don't want to keep a local copy, is one example of using the remove repository directly.  Another situation might be when you are working with a team and for some reason its important to have commits immediately show up so the other team members can see it.
