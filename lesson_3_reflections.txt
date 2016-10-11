@@ -1,3 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 Answer: I think in situations where you have to work from a shared computer at a business or client site, where you don't want to keep a local copy, is one example of using the remove repository directly.  Another situation might be when you are working with a team and for some reason its important to have commits immediately show up so the other team members can see it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Answer: When you are working on a public repository, and especially working with a team, in some siutations you may not want to pull down changes other people have committed automatically while you are working on testing or adding new features to a certain version of code.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Forks are clones of repositories on the actual Git Hub server.  A fork gives you a new copy independant of the original , so any changes committed will occur in your Fork and not the original repository.  Clones are a copy of a repository on Git Hub down to your local computer.  They still point to the original repository, so changes will be committed agagainst the cloned repository.  Branches are a tree off of an existing repository.  They allow you to make changes to the repository on a branch and commit them without affecting the original master branch. At a later point, the branch and its changes can be merged back into the master branch.
+
