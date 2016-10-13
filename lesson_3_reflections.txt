@@ -12,4 +12,10 @@ Answer: Forks are clones of repositories on the actual Git Hub server.  A fork g
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-I think having the lastest copy of a remote repository locally is always a good idea to keep up with changes other developers have made.  Especially when those changes directly affect a program or code that you are also modifying.
+Answer: I think having the lastest copy of a remote repository locally is always a good idea to keep up with changes other developers have made.  Especially when those changes directly affect a program or code that you are also modifying.
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+Answer: If I was not using GitHub, I would probably collaborate with other developers using one of the legacy source control tools, such as SVN or CVS.  That would be more difficult because those tools require setting up your own server, plus each member of the team would have to be given access.  In addition, the server would have to be hosted somehow so it could be accessed over the internet, or via a VPN.  GitHub seems easier because it provides a Git server to host the repositories AND also handles the accounts and has tools for directly commenting on the code from the GitHub website. Its pretty easy to create a GitHub account and install Git locally and then anyone on the team could start collaborating. 
+
+
