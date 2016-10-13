@@ -21,4 +21,14 @@ Answer: The diagrams make it much easier to see what at what commit point a bran
 
 What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
 
-The merging of the branches combines both sets of code from the branches - inserting and deleting lines as needed.  The diagram shows how the commit points follow different paths once the branch is created, but then merge up.
+Answer: The merging of the branches combines both sets of code from the branches - inserting and deleting lines as needed.  The diagram shows how the commit points follow different paths once the branch is created, but then merge up.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Answer:
+Pro:   
+    The merge can save time and reduce the chance for errors, especially if a large number of files were changed.
+Cons:
+    There is always a chance that the automatic merge could cause a code bug that would not be immediately noticed.  One example would be if someone changed something in one branch that affected some new code in another branch unexpectedly.
+
+
