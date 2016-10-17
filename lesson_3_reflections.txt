@@ -18,4 +18,8 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 Answer: If I was not using GitHub, I would probably collaborate with other developers using one of the legacy source control tools, such as SVN or CVS.  That would be more difficult because those tools require setting up your own server, plus each member of the team would have to be given access.  In addition, the server would have to be hosted somehow so it could be accessed over the internet, or via a VPN.  GitHub seems easier because it provides a Git server to host the repositories AND also handles the accounts and has tools for directly commenting on the code from the GitHub website. Its pretty easy to create a GitHub account and install Git locally and then anyone on the team could start collaborating. 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Answer: A good reason to make changes in a branch, rather than directly in master might be in a situation where you are working on adding a new, experimental feature to a large software product, while there are a lot of other changes, such as production support fixes, being committed to master.  That way you can add your changes to a branch and test them without affecting the prod support changes going into the master branch.  You can also avoid pulling any prod support changes from the master branch that might break your new code, until you have had a chance to review and add them ( if needed ).  Then once your feature is tested and approved, you could then work with the team on merging the new feature into the master branch of the software product.
+
 
